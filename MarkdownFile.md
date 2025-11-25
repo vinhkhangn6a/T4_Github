@@ -31,7 +31,7 @@ E.Làm việc nhóm với GitHub
 
 F.Markdown
 
-**A.Giới thiệu**
+# A.Giới thiệu
 
 **GIT LÀ GÌ?**
 
@@ -57,7 +57,7 @@ Có 3 phần chính của một dự án Git: Cây làm việc (the working tree
 
 Nếu một phiên bản cụ thể của tệp nằm trong thư mục Git thì nó được coi là đã cam kết (committed). Nếu nó đã được sửa đổi và được thêm vào khu vực tổ chức, nó sẽ được coi là đã tổ chức (staged). Và nếu nó đã được thay đổi kể từ khi được kiểm tra nhưng chưa được dàn dựng thì nó sẽ có trạng thái là đã được sửa đổi (modified).
 
-**B.GITHUB**
+# B.GITHUB
 
 **GITHUB LÀ GÌ?**
 
@@ -145,7 +145,7 @@ Cho phép tự động:
 
 → Mỗi lần commit/push là tự chạy pipeline.
 
-**C.CÁCH TÍCH HỢP GIT VÀ GITHUB**
+# C.CÁCH TÍCH HỢP GIT VÀ GITHUB
 
 Sau khi cài đặt Git trên máy tính, người dùng mở cửa sổ dòng lệnh và khai báo tên cùng địa chỉ email để Git nhận diện tác giả trong các lần lưu phiên bản. Trên GitHub, tạo một kho lưu trữ (repository) mới để chứa mã nguồn. Tiếp đó, trong thư mục dự án trên máy, khởi tạo Git bằng lệnh git init, rồi đưa toàn bộ tệp vào hệ thống quản lý phiên bản bằng git add . và tạo bản ghi đầu tiên với git commit -m "first".
 
@@ -153,9 +153,9 @@ Khi kho lưu trữ trên GitHub đã sẵn sàng, liên kết dự án trong má
 
 Từ thời điểm này, mỗi lần thay đổi mã nguồn, người dùng chỉ cần thêm các thay đổi vào Git, tạo thông điệp mô tả và đẩy lên GitHub bằng chuỗi lệnh git add ., git commit -m "ghi chú", và git push. Nếu muốn cập nhật mã từ GitHub về máy, có thể sử dụng lệnh git pull.
 
-**D.CÁCH ĐỂ KẾT NỐI GITHUB VỚI VSCODE VÀ PUSH PROJECT LÊN VÀ LẤY PROJECT VỀ MÁY**
+# D.CÁCH ĐỂ KẾT NỐI GITHUB VỚI VSCODE VÀ PUSH PROJECT LÊN VÀ LẤY PROJECT VỀ MÁY
 
-# Hướng Dẫn push Code lên GitHub
+**Hướng Dẫn push Code lên GitHub**
 
 1.  **Tạo tài khoản Github và tải Vscode và Git**
 
@@ -183,15 +183,15 @@ Link tải Vscode :[https://code.visualstudio.com/download](https://code.visuals
 
 +Cuối cùng là để ý thanh dưới góc trái màn hình và click vào 2 mũi tên xoay chiều để Push lên Github.Sau đó vào trang Github để kiểm tra.
 
-# Hướng Dẫn Clone Code Từ GitHub Về Visual Studio Code Bằng Extension
+**Hướng Dẫn Clone Code Từ GitHub Về Visual Studio Code Bằng Extension**
 
-## 1\. Chuẩn bị
+1\. Chuẩn bị
 
 1.  **Visual Studio Code**: tải và cài đặt từ [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2.  **Git**: tải và cài đặt từ [https://git-scm.com/](https://git-scm.com/)
 3.  **Tài khoản GitHub**: nếu muốn clone repository private.
 
-## 2\. Cài Extension trong VS Code
+2\. Cài Extension trong VS Code
 
 1.  Mở VS Code → nhấn **Ctrl + Shift + X** hoặc chọn **Extensions**.  
     
@@ -199,7 +199,7 @@ Link tải Vscode :[https://code.visualstudio.com/download](https://code.visuals
 
 Chỉ cần cài 1 trong 2 là đủ.
 
-## 3\. Lấy link GitHub Repository
+3\. Lấy link GitHub Repository
 
 1.  Vào trang repository trên GitHub.
 2.  Nhấn **Code → HTTPS → Copy link**.
@@ -214,11 +214,11 @@ Chỉ cần cài 1 trong 2 là đủ.
     
 4.  Chọn thư mục lưu project
 
-## 5\. Mở project
+5\. Mở project
 
 Sau khi clone xong → chọn **Open** để mở project.
 
-**E.XÂY DỰNG - THAO TÁC REPOSITORY LÀM VIỆC NHÓM & KHI NÀO NÊN DÙNG GITHUB TẠO DỰ ÁN NHÓM**
+# E.XÂY DỰNG - THAO TÁC REPOSITORY LÀM VIỆC NHÓM & KHI NÀO NÊN DÙNG GITHUB TẠO DỰ ÁN NHÓM
 
 **I/ Khởi tạo dự án nhóm:**
 
@@ -264,7 +264,7 @@ Sau khi clone xong → chọn **Open** để mở project.
 3.  Dự án nhiều giai đoạn, version và có nhu cầu lưu trữ code.
 4.  Dự án cần thử nghiệm nhiều tính năng, có độ rủi ro cao, dễ lỗi.
 
-## F.MARKDOWN
+# F.MARKDOWN
 
 Markdown là một ngôn ngữ đánh dấu dạng **văn bản thuần (plain text)** được sử dụng để định dạng nội dung.  
 Thay vì dùng thanh công cụ như trong Word, Markdown sử dụng các ký tự đặc biệt để tạo tiêu đề, in đậm, in nghiêng, bảng, danh sách,…
@@ -277,7 +277,7 @@ Markdown được dùng phổ biến trong:
 *   Visual Studio Code
 *   Viết tài liệu kỹ thuật
 
-### Ví dụ so sánh Word và Markdown
+Ví dụ so sánh Word và Markdown
 
 | Chức năng | Word | Markdown |
 | --- | --- | --- |
@@ -290,7 +290,7 @@ Markdown dễ viết, gọn, nhẹ, hiển thị đẹp và đặc biệt phù h
 
 Có nhiều cách để chuyển đổi, tùy thiết bị và nhu cầu sử dụng.
 
-### **Cách 1: Chuyển trực tuyến (Online – dễ nhất)**
+**Cách 1: Chuyển trực tuyến (Online – dễ nhất)**
 
 Một số trang web miễn phí hỗ trợ chuyển đổi:
 
@@ -305,7 +305,7 @@ Một số trang web miễn phí hỗ trợ chuyển đổi:
 3.  Chọn định dạng đích: Markdown (.md)
 4.  Tải file Markdown về máy
 
-### **Cách 2: Dùng Visual Studio Code**
+**Cách 2: Dùng Visual Studio Code**
 
 Thích hợp nếu bạn dùng Markdown trên GitHub hoặc viết tài liệu.
 
